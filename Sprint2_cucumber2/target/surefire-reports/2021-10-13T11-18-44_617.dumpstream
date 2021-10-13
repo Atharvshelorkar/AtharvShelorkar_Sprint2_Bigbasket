@@ -1,0 +1,4 @@
+# Created at 2021-10-13T11:18:45.893
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Capgemini\GitHUB\Sprint\Sprint2_cucumber2\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

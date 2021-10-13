@@ -1,0 +1,7 @@
+StepDef\OffersStepDef.class
+Runner\AbstractTestNGCucumberTests.class
+Runner\DealRunner.class
+StepDef\LoginStepDef.class
+Runner\LoginRunner.class
+StepDef\DealsStepDef.class
+Runner\OfferRunner.class
