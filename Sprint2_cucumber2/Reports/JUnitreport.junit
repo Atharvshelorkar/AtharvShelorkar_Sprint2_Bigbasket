@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="7.387">
-    <testcase classname="BigBasket URL" name="To validate the title of Bigbasket" time="7.142">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="83.985">
+    <testcase classname="BigBasket Deals" name="Test Popularity button is working" time="18.653">
+        <system-out><![CDATA[Given User is in home page..................................................passed
+When User clicks on Deals button............................................passed
+And User clicks on Sort button..............................................passed
+Then User clicks on Popularity button.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="BigBasket Deals" name="Test Price(low-high) button is working" time="16.718">
+        <system-out><![CDATA[Given User is in home page..................................................passed
+When User clicks on Deals button............................................passed
+And User clicks on Sort button..............................................passed
+Then User clicks on Price(low-high) button..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="BigBasket Deals" name="Test Alphabetically button is working" time="18.854">
+        <system-out><![CDATA[Given User is in home page..................................................passed
+When User clicks on Deals button............................................passed
+And User clicks on Sort button..............................................passed
+Then User clicks on Alphabetically button...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="BigBasket Offers" name="To check whether items in offer page is added to cart and quantity is change" time="24.084">
+        <system-out><![CDATA[Given User is in Home Page..................................................passed
+When User clicks on Offer button............................................passed
+And User click on add to cart button........................................passed
+And User clicks on cart/basket button.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="BigBasket URL" name="To validate the title of Bigbasket" time="5.465">
         <system-out><![CDATA[Given User is on the login page.............................................passed
 Then the title of the page should be "Online Grocery Shopping and Online Supermarket in India - bigbasket".passed
 ]]></system-out>

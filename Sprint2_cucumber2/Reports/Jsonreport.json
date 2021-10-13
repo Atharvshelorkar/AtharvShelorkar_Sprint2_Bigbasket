@@ -3,7 +3,265 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-10-08T11:11:29.468Z",
+        "start_timestamp": "2021-10-13T06:19:24.054Z",
+        "line": 3,
+        "name": "Test Popularity button is working",
+        "description": "",
+        "id": "bigbasket-deals;test-popularity-button-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6698775200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in home page",
+            "match": {
+              "location": "StepDef.DealsStepDef.user_is_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3052780300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on Deals button",
+            "match": {
+              "location": "StepDef.DealsStepDef.user_clicks_on_deals_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3585059100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Sort button",
+            "match": {
+              "location": "StepDef.DealsStepDef.user_clicks_on_Sort_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5290662200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Popularity button",
+            "match": {
+              "location": "StepDef.DealsStepDef.user_clicks_on_popularity_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:19:42.738Z",
+        "line": 9,
+        "name": "Test Price(low-high) button is working",
+        "description": "",
+        "id": "bigbasket-deals;test-price(low-high)-button-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5833994100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is in home page",
+            "match": {
+              "location": "StepDef.DealsStepDef.user_is_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2101718600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Deals button",
+            "match": {
+              "location": "StepDef.DealsStepDef.user_clicks_on_deals_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3331283800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Sort button",
+            "match": {
+              "location": "StepDef.DealsStepDef.user_clicks_on_Sort_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5446049500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on Price(low-high) button",
+            "match": {
+              "location": "StepDef.DealsStepDef.user_clicks_on_price_low_high_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T06:19:59.461Z",
+        "line": 15,
+        "name": "Test Alphabetically button is working",
+        "description": "",
+        "id": "bigbasket-deals;test-alphabetically-button-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6119978800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is in home page",
+            "match": {
+              "location": "StepDef.DealsStepDef.user_is_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2689817600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on Deals button",
+            "match": {
+              "location": "StepDef.DealsStepDef.user_clicks_on_deals_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4601486400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on Sort button",
+            "match": {
+              "location": "StepDef.DealsStepDef.user_clicks_on_Sort_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5441271300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on Alphabetically button",
+            "match": {
+              "location": "StepDef.DealsStepDef.user_clicks_on_alphabetically_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "BigBasket Deals",
+    "description": "",
+    "id": "bigbasket-deals",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/Deals.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T06:20:18.321Z",
+        "line": 3,
+        "name": "To check whether items in offer page is added to cart and quantity is change",
+        "description": "",
+        "id": "bigbasket-offers;to-check-whether-items-in-offer-page-is-added-to-cart-and-quantity-is-change",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4571533800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in Home Page",
+            "match": {
+              "location": "StepDef.OffersStepDef.user_is_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1422097200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on Offer button",
+            "match": {
+              "location": "StepDef.OffersStepDef.user_clicks_on_offer_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7042936000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on add to cart button",
+            "match": {
+              "location": "StepDef.OffersStepDef.user_click_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11042775700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on cart/basket button",
+            "match": {
+              "location": "StepDef.OffersStepDef.user_clicks_on_cart_basket_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "BigBasket Offers",
+    "description": "",
+    "id": "bigbasket-offers",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/Offers.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T06:20:42.417Z",
         "line": 4,
         "name": "To validate the title of Bigbasket",
         "description": "",
@@ -13,7 +271,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6593329200,
+              "duration": 5231699400,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +283,7 @@
           },
           {
             "result": {
-              "duration": 536640400,
+              "duration": 233160000,
               "status": "passed"
             },
             "line": 6,
